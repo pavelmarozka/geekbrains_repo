@@ -7,6 +7,7 @@ ini_set('display_startup_errors', '1');
 
 $h1 = "New Automation Tool for Your";
 $title = "Главная страница";
+$year = date("Y");
 
 ?>
 
@@ -103,7 +104,7 @@ $title = "Главная страница";
 				<div class="paragraf phone footer_list_item">+7-812-7313-4321</div>
 				<div class="paragraf email footer_list_item">hello.site@gmail.com</div>
 			</div>
-			<p class="paragraf copyright">&copy; 2021 All rights reserved.</p>
+			<p class="paragraf copyright">&copy; <?php $year ?> All rights reserved.</p>
 		</div>
 	</footer>
 </body>
